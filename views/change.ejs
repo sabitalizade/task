@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <form action="/changepass" method="POST" class="container">
+        
+        <div class="username">
+            <label for="">Current password</label>
+            <input type="hidden" required name="email" value="<%= email %>"  >
+            <input type="text" required name="oldpass" value="<%= password %>" placeholder="current password" >
+        </div>
+        <div class="username">
+            <label for="">New password</label>
+            <input type="password" required name="newpass" placeholder="new password">
+        </div>
+        
+        <div class="button">
+            <button type="submit">Change Password</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+1 form duzelt ++++
+2 modeli yarat++++
+3 yaddawa yazmani tamamla++++
+4 random pasword genaratoru tertib elesin++++
+
+
+
+
+(bank employee) creating new object in credentials collection, 
+kimlik melumatlari colleksiyasinda yeni bir obyekt yarat,++++
+
+
+containing appropriate person_id, randomly generated password, 
+uygun person_id olsun ,tesadufu pasvord generate elesin +++
+
+
+and role which should be choosen using combobox or sth similar;
+ve rolunu secmek olsun combobox ve ya oxwar birweyler+++
+
+
+
+ every bank employee can know the password of every client  but only if it is randomly generated;
+ her bank iwcisi butun istifadecilerin wifrelerini gore bilsin  amma sadece tesadufu yaradilan wifreleri+++
+
+  
+ 
+  (bank client) every bank  client can change his/her password.
+  butun bank istifadecileri oz wifresini deyiwe bilsin 
